@@ -7,18 +7,18 @@ Meow!
 1. Fork this repo.
 
 2. Edit `config.env` :
-
-   |        Arguments        | Note                                              |
-   | :---------------------: | ------------------------------------------------- |
-   |    ANYKERNEL_SOURCE     | Your Anykernel3 repo                              |
+   
+   | Arguments               | Note                                              |
+   |:-----------------------:| ------------------------------------------------- |
+   | ANYKERNEL_SOURCE        | Your Anykernel3 repo                              |
    | ANYKERNEL_SOURCE_BRANCH | Your Anykernel3 branch                            |
-   |      KERNEL_SOURCE      | Your kernel source repo                           |
-   |  KERNEL_SOURCE_BRANCH   | Your kernel source branch                         |
-   |      KERNEL_TARGET      | Your device codename                              |
-   |       BUILD_ARGS        | Your kernel compile aguments, separate with space |
+   | KERNEL_SOURCE           | Your kernel source repo                           |
+   | KERNEL_SOURCE_BRANCH    | Your kernel source branch                         |
+   | KERNEL_TARGET           | Your device codename                              |
+   | BUILD_ARGS              | Your kernel compile aguments, separate with space |
 
 3. Click `Run workflow` in `Action->Build MikaKernel`
 
 ## What's more:
 
-Provide AOSP GCC 4.9 & AOSP Clang 17.0.0 based on r487747 by default.
+Provide AOSP GCC 4.9 & Proton Clang by default.
